@@ -1,0 +1,5 @@
+﻿#	测试配置表		
+#	Id		Key	Value
+#	int		string	string
+	1	first	hello
+	2	second	world

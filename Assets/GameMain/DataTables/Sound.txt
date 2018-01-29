@@ -1,0 +1,24 @@
+﻿#	声音配置表							
+#	Id		Resource Name	Priority	Loop	Volume	SpatialBlend	MaxDistance
+#	int		string	int	bool	float	float	float
+#	声音编号	策划备注	资源名称	优先级（默认0，128最高，-128最低）	是否循环	音量（0~1）	声音空间混合量（0为2D，1为3D，中间值混合效果）	声音最大距离
+	10000	玩家子弹	weapon_player	0	FALSE	1	0	100
+	10001	敌人子弹	weapon_enemy	0	FALSE	1	0	100
+	20000	玩家爆炸	explosion_player	0	FALSE	1	0	100
+	20001	敌人爆炸	explosion_enemy	0	FALSE	1	0	100
+	20002	小行星爆炸	explosion_asteroid	0	FALSE	1	0	100
+	1	吸收	Absorb	1	FALSE	1	0	100
+	2	点击	click	0	FALSE	0.5	0	100
+	3	失败	Lose	10	FALSE	1	0	100
+	4	主页	MainProcess	0	FALSE	1	0	100
+	5	合成失败	SynFailed	9	FALSE	1	0	100
+	6	合成成功	SynSuccess	9	FALSE	1	0	100
+	7	合成	Absorb	8	FALSE	1	0	100
+	8	成功	Win	10	FALSE	1	0	100
+	9	猴子	Ape	2	FALSE	1	0	100
+	10	肉球	Ball	2	FALSE	1	0	100
+	11	大象	Elephant	2	FALSE	1	0	100
+	12	青蛙	Frog	2	FALSE	1	0	100
+	13	人	Man	2	FALSE	1	0	100
+	14	史莱姆	Slime	2	FALSE	1	0	100
+	15	蛇	Snake	2	FALSE	1	0	100
